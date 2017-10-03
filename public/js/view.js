@@ -91,13 +91,17 @@ $(document).ready(function() {
   function createNewRow(burger) {
     var $newInputRow = $(
       [
-        "<li class='list-group-item burger-item'>",
+        "<li class='container-fluid list-group-item burger-item'>",
+        "<div class='container-fluid col-sm-6'>",
         "<span>",
         burger.burger_name,
         "</span>",
         "<input type='text' class='edit' style='display: none;'>",
-        "<button class='delete btn btn-default'>Delete</button>",
-        "<button class='devour btn btn-default'>Devour It!</button>",
+        "</div>",
+        "<div class='container-fluid col-sm-6'>",
+        "<button class='devour btn btn-default col-sm-8'>Devour It!</button>",
+        "<button class='delete btn btn-default col-sm-4'>X</button>",
+        "</div>",
         "</li>"
       ].join("")
     );
