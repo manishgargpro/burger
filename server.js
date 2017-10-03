@@ -1,5 +1,4 @@
-//connection string:
-//mysql://ztw3pj6remtlye6y:gg2uiv9t0rpsz6av@ipobfcpvprjpmdo9.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/ppfb056s56g29sx8
+// url: https://morning-plateau-56935.herokuapp.com/
 
 var express = require("express");
 
